@@ -1,7 +1,7 @@
 import fastapi, uvicorn
 import os
 
-api = fastapi.FastAPI()
+app = fastapi.FastAPI()
 
 @app.get("/")
 async def root() -> dict[str, str]:
