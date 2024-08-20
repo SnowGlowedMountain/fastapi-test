@@ -12,8 +12,6 @@ build:
       value: '8080'
 
 run:
-  pre-run:
-    - poetry shell
-  command: python3 app.py # command to run fastapi
+  command: poetry run python3 app.py # command to run fastapi
   network:
     port: 8080 # port AppRunner will expose
