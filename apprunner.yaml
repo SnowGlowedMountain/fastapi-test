@@ -4,7 +4,7 @@ build:
   commands:
     build:
       - pip install poetry
-      - poetry shell
+      - poetry install
       - pip install -r requirements.txt # install dependencies
 
   env: # define environment variables

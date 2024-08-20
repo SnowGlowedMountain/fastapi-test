@@ -4,9 +4,15 @@ version = "0.1.0"
 description = "test"
 authors = ["Serhii <snow55mountain@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
+fastapi = "^0.112.1"
+aiohttp = "^3.10.5"
+pillow = "^10.4.0"
+python-multipart = "^0.0.9"
+uvicorn = {extras = ["standard"], version = "^0.30.6"}
 
 
 [build-system]
